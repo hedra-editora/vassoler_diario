@@ -6510,9 +6510,16 @@ não acreditaram nos próprios olhos no momento em que viram uma roda de
 cadáveres de mãos dadas ao redor de um maestro que morrera em pé,
 congelado, enquanto regia o penúltimo acorde de Chostakovitch.
 
-\pagebreak
+%\pagebreak
 \clearpage
 \thispagestyle{empty}
+
+\makeatletter\@openrightfalse
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\movetooddpage
+\addcontentsline{toc}{part}{São Petersburgo [km 6465]}
+\part*{SÃO PETERSBURGO -- KM 6465\\{[}A NOROESTE DE MOSCOU, NÍJNI NOVGOROD, KAZAN, SARANSK, SAMARA,
+VOLGOGRADO (STALINGRADO), ROSTOV-SOBRE-O-DON E SOTCHI; A NORDESTE DE KALININGRADO (KÖNIGSBERG){]}}
 
 \movetoevenpage
 \begin{absolutelynopagebreak}
@@ -6520,12 +6527,12 @@ congelado, enquanto regia o penúltimo acorde de Chostakovitch.
 \begin{figure}[H]
 \begin{adjustwidth}{-2.7cm}{}
   %\centering
-  \vspace{-2.8cm}
+  \vspace{-2.5cm}
   \hspace{2.2cm}
-  \includegraphics[width=105mm]{./imgs/petersburgo1.jpg}  
+  \includegraphics[angle=270,width=100mm]{./imgs/petersburgo2.jpg}  
   %\hfill
 \end{adjustwidth}
-  \caption{Estátua do escritor russo Fiódor Dostoiévski (1821--1881) nas imediações de seu museu"-casa, em São Petersburgo.}
+  \caption{Máscara mortuária do escritor russo Fiódor Dostoiévski (1821-1881).}
 
 \thispagestyle{empty}
 
@@ -6534,16 +6541,9 @@ congelado, enquanto regia o penúltimo acorde de Chostakovitch.
 
 \end{absolutelynopagebreak}
 
-\clearpage{\pagestyle{empty}\cleardoublepage}
-\movetooddpage
-\addcontentsline{toc}{part}{São Petersburgo [km 6465]}
-\part*{SÃO PETERSBURGO -- KM 6465\\{[}A NOROESTE DE MOSCOU, NÍJNI NOVGOROD, KAZAN, SARANSK, SAMARA,
-VOLGOGRADO (STALINGRADO), ROSTOV-SOBRE-O-DON E SOTCHI; A NORDESTE DE KALININGRADO (KÖNIGSBERG){]}}
-
-
-
 \chapter*{Entre a cruz e a espada:\\A Rússia sob o punho de Vladímir Putin}
 \addcontentsline{toc}{chapter}{[14/07/18] Entre a cruz e a espada: A Rússia sob o punho de Vladímir Putin}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{São Petersburgo, 14 de julho de 2018}
