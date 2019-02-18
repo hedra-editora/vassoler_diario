@@ -4597,7 +4597,7 @@ sentencia:
 \thispagestyle{empty}
 
 \end{figure}
-\end{vplace}%
+\end{vplace}
 
 \end{absolutelynopagebreak}
 
@@ -5127,22 +5127,28 @@ sua única e verdadeira pátria, a grande literatura russa\footnote{Este
   revolução'', publicado em 06/01/18 no caderno literário ``Aliás'', do
   jornal \emph{O Estado de S. Paulo}.}.
 
-\pagebreak
-\clearpage
-\thispagestyle{empty}
+%\pagebreak
+%\clearpage
+%\thispagestyle{empty}
+
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\makeatletter\@openrightfalse
+\movetooddpage
+\addcontentsline{toc}{part}{Sotchi [km 3353]}
+\part*{SOTCHI -- KM 3353\\{[}AO SUL DE MOSCOU E DE ROSTOV-SOBRE-O-DON; A SUDOESTE DE NÍJNI NOVGOROD, KAZAN, SARANSK, SAMARA E VOLGOGRADO (STALINGRADO){]}}
 
 \movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
 \begin{figure}[H]
-\begin{adjustwidth}{-2.7cm}{}
+\begin{adjustwidth}{-1.8cm}{}
   %\centering
-  \vspace{-2.8cm}
-  \hspace{2.2cm}
-  \includegraphics[width=105mm]{./imgs/sotchi1.jpg}  
+  \vspace{2.7cm}
+  %\hspace{0.5cm}
+  \includegraphics[width=130mm]{./imgs/rostov2.jpg}  
   %\hfill
 \end{adjustwidth}
-  \caption{Busto do poeta russo Vladímir Maiakóvski (1893--1930) em Sotchi, às margens do Mar Negro.}
+  \caption{No interior de uma igreja ortodoxa em Rostov-sobre-o-Don.}%
 
 \thispagestyle{empty}
 
@@ -5151,13 +5157,29 @@ sua única e verdadeira pátria, a grande literatura russa\footnote{Este
 
 \end{absolutelynopagebreak}
 
-%\clearpage{\pagestyle{empty}\cleardoublepage}
-\movetooddpage
-\addcontentsline{toc}{part}{Sotchi [km 3353]}
-\part*{SOTCHI -- KM 3353\\{[}AO SUL DE MOSCOU E DE ROSTOV-SOBRE-O-DON; A SUDOESTE DE NÍJNI NOVGOROD, KAZAN, SARANSK, SAMARA E VOLGOGRADO (STALINGRADO){]}}
+%\movetoevenpage
+%\begin{absolutelynopagebreak}
+%\begin{vplace}
+%\begin{figure}[H]
+%\begin{adjustwidth}{-2.7cm}{}
+%  %\centering
+%  \vspace{-2.5cm}
+%  \hspace{2.2cm}
+%  \includegraphics[width=100mm]{./imgs/sotchi1.jpg}  
+%  %\hfill
+%\end{adjustwidth}
+%  \caption{Busto do poeta russo Vladímir Maiakóvski (1893--1930) em Sotchi, às margens do Mar Negro.}%
+
+%\thispagestyle{empty}%
+
+%\end{figure}
+%\end{vplace}%
+
+%\end{absolutelynopagebreak}
 
 \chapter*{Quando o cume prenuncia a vertigem da queda: Uruguai e Brasil; Napoleão, Hitler e Stálin}
 \addcontentsline{toc}{chapter}{Quando o cume prenuncia a vertigem da queda: Uruguai e Brasil; Napoleão, Hitler e Stálin}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Sotchi, 09 de julho de 2018}
@@ -5560,21 +5582,28 @@ submeter os inimigos poderosos e encarniçados à tortura da velha máxima
 de Hamlet: ser ou não ser, eis a questão? Não! Ser e não ser -- eis a
 resposta (e a sentença) de Stálin.
 
-\pagebreak
-\clearpage
-\thispagestyle{empty}
+%\pagebreak
+%\clearpage
+%\thispagestyle{empty}
 
+\makeatletter\@openrightfalse
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\movetooddpage
+\addcontentsline{toc}{part}{Kaliningrado (Königsberg) [km 5520]}
+\part*{KALININGRADO (KÖNIGSBERG) -- KM 5520\\{[}A OESTE DE MOSCOU, NÍJNI NOVGOROD, KAZAN, SARANSK E SAMARA; A NOROESTE DE VOLGOGRADO (STALINGRADO), ROSTOV-SOBRE-O-DON E SOTCHI{]}}
+
+\movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
 \begin{figure}[H]
-\begin{adjustwidth}{-2.7cm}{}
+\begin{adjustwidth}{-1.8cm}{}
   %\centering
   \vspace{2.7cm}
-  \hspace{0.5cm}
-  \includegraphics[width=140mm]{./imgs/kaliningrado1.jpg}  
+  %\hspace{0.5cm}
+  \includegraphics[width=130mm]{./imgs/kaliningrado2.jpg}  
   %\hfill
 \end{adjustwidth}
-  \caption{Catedral protestante de Königsberg"-Kaliningrado.}
+  \caption{Máscara mortuária do filósofo alemão Immanuel Kant (1724-1804).}
 
 \thispagestyle{empty}
 
@@ -5583,14 +5612,28 @@ resposta (e a sentença) de Stálin.
 
 \end{absolutelynopagebreak}
 
-\clearpage{\pagestyle{empty}\cleardoublepage}
-\movetooddpage
-\addcontentsline{toc}{part}{Kaliningrado (Königsberg) [km 5520]}
-\part*{KALININGRADO (KÖNIGSBERG) -- KM 5520\\{[}A OESTE DE MOSCOU, NÍJNI NOVGOROD, KAZAN, SARANSK E SAMARA; A NOROESTE DE VOLGOGRADO (STALINGRADO), ROSTOV-SOBRE-O-DON E SOTCHI{]}}
+%\begin{absolutelynopagebreak}
+%\begin{vplace}
+%\begin{figure}[H]
+%\begin{adjustwidth}{-2.7cm}{}
+%  %\centering
+%  \vspace{2.7cm}
+%  \hspace{0.5cm}
+%  \includegraphics[width=140mm]{./imgs/kaliningrado1.jpg}  
+%  %\hfill
+%\end{adjustwidth}
+%  \caption{Catedral protestante de Königsberg"-Kaliningrado.}%
+
+%\thispagestyle{empty}%
+
+%\end{figure}
+%\end{vplace}%
+
+%\end{absolutelynopagebreak}
 
 \chapter*{Narciso gosta de se mutilar:\\De \emph{Crime e castigo} a crimes sem castigo}
-
 \addcontentsline{toc}{chapter}{[11/07/18] Narciso gosta de se mutilar: De \emph{Crime e castigo} a crimes sem castigo}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Kaliningrado (Königsberg), 11 de julho de 2018}
