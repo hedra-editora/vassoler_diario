@@ -4570,37 +4570,60 @@ sentencia:
 
 -- Medo de sondar a minha própria vontade.
 
-\pagebreak
-\clearpage
-\thispagestyle{empty}
+%\pagebreak
+%\clearpage
+%\thispagestyle{empty}
+
+
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\makeatletter\@openrightfalse
+\movetooddpage
+\addcontentsline{toc}{part}{Rostov-sobre-o-Don [km 2807]}
+\part*{ROSTOV-SOBRE-O-DON -- KM 2807\\{[}AO SUL DE MOSCOU;\\A SUDOESTE DE NÍJNI NOVGOROD,\\KAZAN, SARANSK, SAMARA E\\VOLGOGRADO (STALINGRADO){]}}
 
 \movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
 \begin{figure}[H]
-\begin{adjustwidth}{-2.7cm}{}
+\begin{adjustwidth}{-1.8cm}{}
   %\centering
-  \vspace{-2.8cm}
-  \hspace{2.2cm}
-  \includegraphics[width=105mm]{./imgs/rostov1.jpg}  
+  \vspace{2.7cm}
+  %\hspace{0.5cm}
+  \includegraphics[width=130mm]{./imgs/rostov2.jpg}  
   %\hfill
 \end{adjustwidth}
-  \caption{Estátua do escritor e dramaturgo Anton Tchékhov (1860--1904) em Rostov"-sobre"-o"-Don.}
+  \caption{No interior de uma igreja ortodoxa em Rostov-sobre-o-Don.}
 
 \thispagestyle{empty}
 
 \end{figure}
-\end{vplace}
+\end{vplace}%
 
 \end{absolutelynopagebreak}
 
-%\clearpage{\pagestyle{empty}\cleardoublepage}
-\movetooddpage
-\addcontentsline{toc}{part}{Rostov-sobre-o-Don [km 2807]}
-\part*{ROSTOV-SOBRE-O-DON -- KM 2807\\{[}AO SUL DE MOSCOU;\\A SUDOESTE DE NÍJNI NOVGOROD,\\KAZAN, SARANSK, SAMARA E\\VOLGOGRADO (STALINGRADO){]}}
+%\movetoevenpage
+%\begin{absolutelynopagebreak}
+%\begin{vplace}
+%\begin{figure}[H]
+%\begin{adjustwidth}{-2.7cm}{}
+%  %\centering
+%  \vspace{-2.5cm}
+%  \hspace{2.2cm}
+%  \includegraphics[width=100mm]{./imgs/rostov1.jpg}  
+%  %\hfill
+%\end{adjustwidth}
+%  \caption{Estátua do escritor e dramaturgo Anton Tchékhov (1860--1904) em Rostov"-sobre"-o"-Don.}%
+
+%\thispagestyle{empty}%
+
+%\end{figure}
+%\end{vplace}%
+
+%\end{absolutelynopagebreak}
 
 \chapter*{Vladímir Maiakóvski, a revolução que atira contra o (próprio) peito}
 \addcontentsline{toc}{chapter}{[06/07/18] Vladímir Maiakóvski, a revolução que atira contra o (próprio) peito}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Rostov"-sobre"-o"-Don, 06 de julho de 2018}
