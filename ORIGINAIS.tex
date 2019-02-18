@@ -104,22 +104,30 @@ reunidas em livro. É coisa de Pelé, Cruyff e Maradona -- é a
 comprovação, tudo somado, de que não é só futebol. Prestemos atenção ao
 trabalho de Flávio Ricardo Vassoler.
 
-\pagebreak
-\clearpage
-\thispagestyle{empty}
+
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+%\movetooddpage
+\makeatletter\@openrightfalse
+\movetooddpage
+\part*{MOSCOU -- KM 0}
+\addcontentsline{toc}{part}{Moscou [km 0]}
+
+%\pagebreak
+%\clearpage
+%\thispagestyle{empty}
 
 \movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
 \begin{figure}[H]
-\begin{adjustwidth}{-2.7cm}{}
+\begin{adjustwidth}{-1.8cm}{}
   %\centering
-  \vspace{-2.3cm}
-  \hspace{2.3cm}
-  \includegraphics[width=100mm]{./imgs/moscou1.jpg}  
+  \vspace{2.7cm}
+  %\hspace{-0.5cm}
+  \includegraphics[width=130mm]{./imgs/moscou2.jpg}  
   %\hfill
 \end{adjustwidth}
-  \caption{No parque \versal{VDNK}h, ao norte de Moscou, fica exposta uma réplica da espaçonave Vostok 1, a bordo da qual o cosmonauta soviético Iúri Gagárin (1934--1968) singrou a órbita da Terra em abril de 1961.}
+  \caption{Estátua equestre do general soviético Georgui Jukov (1896-1974), herói da resistência à invasão nazista, em frente ao Museu de História Russa, nas imediações da Praça Vermelha, em Moscou.}
 
 \thispagestyle{empty}
 
@@ -128,13 +136,10 @@ trabalho de Flávio Ricardo Vassoler.
 
 \end{absolutelynopagebreak}
 
-%\clearpage{\pagestyle{empty}\cleardoublepage}
 \movetooddpage
-\addcontentsline{toc}{part}{Moscou [km 0]}
-\part*{MOSCOU -- KM 0}
-
 \chapter*{Diário de um escritor pela Rússia de Dostoiévski e Tolstói, Maiakóvski e Stálin, Gagárin e Putin}
 \addcontentsline{toc}{chapter}{[15/06/18] Diário de um escritor pela Rússia de Dostoiévski e Tolstói, Maiakóvski e Stálin, Gagárin e Putin}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Moscou, 15 de junho de 2018}
