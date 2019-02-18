@@ -2377,8 +2377,8 @@ nossa miséria\footnote{Parte significativa deste escrito compôs o meu
   de S. Paulo}.}.
 
 %\pagebreak
-%\clearpage
-%\thispagestyle{empty}
+\clearpage
+\thispagestyle{empty}
 
 
 
@@ -2851,9 +2851,15 @@ imaginação?\footnote{Este escrito compôs o meu texto ``Gulag, uma
   tragédia para não ser esquecida'', publicado em 03/02/18 no caderno
   literário ``Aliás'', do jornal \emph{O Estado de S. Paulo}.}
 
-\pagebreak
-\clearpage
-\thispagestyle{empty}
+%\pagebreak
+%\clearpage
+%\thispagestyle{empty}
+
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\makeatletter\@openrightfalse
+\movetooddpage
+\addcontentsline{toc}{part}{Samara [km 1593]}
+\part*{SAMARA -- KM 1593\\(A SUDESTE DE MOSCOU,\\NÍJNI NOVGOROD E SARANSK;\\AO SUL DE KAZAN)}
 
 \movetoevenpage
 \begin{absolutelynopagebreak}
@@ -2861,9 +2867,9 @@ imaginação?\footnote{Este escrito compôs o meu texto ``Gulag, uma
 \begin{figure}[H]
 \begin{adjustwidth}{-2.7cm}{}
   %\centering
-  \vspace{-2.8cm}
+  \vspace{-2.5cm}
   \hspace{2.2cm}
-  \includegraphics[width=105mm]{./imgs/samara1.jpg}  
+  \includegraphics[width=100mm]{./imgs/samara1.jpg}  
   %\hfill
 \end{adjustwidth}
   \caption{Vitral em homenagem ao ditador soviético Ióssif Stálin (1878--1953) à entrada de seu bunker, em Samara.}
@@ -2875,14 +2881,9 @@ imaginação?\footnote{Este escrito compôs o meu texto ``Gulag, uma
 
 \end{absolutelynopagebreak}
 
-
-%\clearpage{\pagestyle{empty}\cleardoublepage}
-\movetooddpage
-\addcontentsline{toc}{part}{Samara [km 1593]}
-\part*{SAMARA -- KM 1593\\(A SUDESTE DE MOSCOU,\\NÍJNI NOVGOROD E SARANSK;\\AO SUL DE KAZAN)}
-
 \chapter*{Réquiem para Stalingrado:\\Matarás o próximo como a ti mesmo}
 \addcontentsline{toc}{chapter}{[30/06/18] Réquiem para Stalingrado: Matarás o próximo como a ti mesmo}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Samara, 30 de junho de 2018}
