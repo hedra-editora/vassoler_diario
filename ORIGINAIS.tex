@@ -1180,22 +1180,30 @@ chegaram a entoar os dois últimos versos do poema -- ``Mas será
 autêntica tal esperança/ Que me foi mandada nestes tempos?'' --, nós bem
 poderíamos intitulá"-lo ``Recordações do bunker dos mortos''.
 
-\pagebreak
-\clearpage
-\thispagestyle{empty}
+%\pagebreak
+%\clearpage
+%\thispagestyle{empty}
+
+
+
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\makeatletter\@openrightfalse
+\movetooddpage
+\part*{NÍJNI NOVGOROD -- KM 417\\(A LESTE DE MOSCOU)}
+\addcontentsline{toc}{part}{Níjni Novgorod [KM 417]}
 
 \movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
 \begin{figure}[H]
-\begin{adjustwidth}{-2.7cm}{}
+\begin{adjustwidth}{-1.8cm}{}
   %\centering
   \vspace{2.7cm}
-  \hspace{-0.5cm}
-  \includegraphics[width=150mm]{./imgs/nijni1.jpg}  
+  %\hspace{-0.5cm}
+  \includegraphics[width=130mm]{./imgs/nijni2.jpg}  
   %\hfill
 \end{adjustwidth}
-  \caption{Em Níjni Novgorod, monumento em homenagem aos mortos na Segunda Guerra Mundial (1939--1945), que os russos chamam de Grande Guerra Patriótica (1941--1945).}
+  \caption{Imagem do Cristo ortodoxo no interior da Catedral de Alexander Niévski, em Níjni Novgorod.}
 
 \thispagestyle{empty}
 
@@ -1204,16 +1212,9 @@ poderíamos intitulá"-lo ``Recordações do bunker dos mortos''.
 
 \end{absolutelynopagebreak}
 
-
-%\clearpage{\pagestyle{empty}\cleardoublepage}
-\movetooddpage
-\addcontentsline{toc}{part}{Níjni Novgorod [KM 417]}
-\part*{NÍJNI NOVGOROD -- KM 417\\(A LESTE DE MOSCOU)}
-
-
-
 \chapter*{Agora eu sou a Morte, a destruidora de mundos}
 \addcontentsline{toc}{chapter}{[21/06/18] Agora eu sou a Morte, a destruidora de mundos}
+\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Níjni Novgorod, 21 de junho de 2018}
