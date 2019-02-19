@@ -104,18 +104,14 @@ reunidas em livro. É coisa de Pelé, Cruyff e Maradona -- é a
 comprovação, tudo somado, de que não é só futebol. Prestemos atenção ao
 trabalho de Flávio Ricardo Vassoler.
 
-
 %\clearpage{\pagestyle{empty}\cleardoublepage}
 %\movetooddpage
-\makeatletter\@openrightfalse
-\movetooddpage
-\part*{MOSCOU -- KM 0}
-\addcontentsline{toc}{part}{Moscou [km 0]}
 
 %\pagebreak
 %\clearpage
 %\thispagestyle{empty}
 
+%\makeatletter\@openrightfalse
 \movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
@@ -137,9 +133,15 @@ trabalho de Flávio Ricardo Vassoler.
 \end{absolutelynopagebreak}
 
 \movetooddpage
+\part*{MOSCOU -- KM 0}
+\addcontentsline{toc}{part}{Moscou [km 0]}
+
+
+
+\movetooddpage
 \chapter*{Diário de um escritor pela Rússia de Dostoiévski e Tolstói, Maiakóvski e Stálin, Gagárin e Putin}
 \addcontentsline{toc}{chapter}{[15/06/18] Diário de um escritor pela Rússia de Dostoiévski e Tolstói, Maiakóvski e Stálin, Gagárin e Putin}
-\@openrighttrue\makeatother
+%\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Moscou, 15 de junho de 2018}
