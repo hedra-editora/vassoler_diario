@@ -2855,12 +2855,6 @@ imaginação?\footnote{Este escrito compôs o meu texto ``Gulag, uma
 %\clearpage
 %\thispagestyle{empty}
 
-%\clearpage{\pagestyle{empty}\cleardoublepage}
-\makeatletter\@openrightfalse
-\movetooddpage
-\addcontentsline{toc}{part}{Samara [km 1593]}
-\part*{SAMARA -- KM 1593\\(A SUDESTE DE MOSCOU,\\NÍJNI NOVGOROD E SARANSK;\\AO SUL DE KAZAN)}
-
 \movetoevenpage
 \begin{absolutelynopagebreak}
 \begin{vplace}
@@ -2881,9 +2875,16 @@ imaginação?\footnote{Este escrito compôs o meu texto ``Gulag, uma
 
 \end{absolutelynopagebreak}
 
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+%\makeatletter\@openrightfalse
+\movetooddpage
+\addcontentsline{toc}{part}{Samara [km 1593]}
+\part*{SAMARA -- KM 1593\\(A SUDESTE DE MOSCOU,\\NÍJNI NOVGOROD E SARANSK;\\AO SUL DE KAZAN)}
+
+
 \chapter*{Réquiem para Stalingrado:\\Matarás o próximo como a ti mesmo}
 \addcontentsline{toc}{chapter}{[30/06/18] Réquiem para Stalingrado: Matarás o próximo como a ti mesmo}
-\@openrighttrue\makeatother
+%\@openrighttrue\makeatother
 
 \begin{flushright}
 \emph{Samara, 30 de junho de 2018}
