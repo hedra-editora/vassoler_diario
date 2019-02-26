@@ -29,6 +29,9 @@
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,5em\indent}}
 
+%---------------------------------------------------------JUSTIFICAR LEGENDA NA IMAGEM
+ \usepackage[justification=centering]{caption}
+
 %\usepackage{fontspec}
 %\setmainfont[Ligatures=TeX]{SwiftNeueLTPro-Regular}
 
@@ -43,7 +46,7 @@
   \@footnotemark\@footnotetext}
 %\def\footnoterule{\kern-8\p@
    %\hrule \@width 2in \kern 7.6\p@} % the \hrule is .4pt high
-\skip\footins=10mm\@plus3mm\@minus2mm
+\skip\footins=10mm\@plus3mm\@minus5mm
 \makeatother
 
 \newenvironment{absolutelynopagebreak}
@@ -53,7 +56,17 @@
    \prevdepth=\tpd}
 
 
- 
+ \hyphenation{radio-fônico}
+ \hyphenation{Khru-schov}
+ \hyphenation{Vassílie-vitch}
+ \hyphenation{Frie-drich}
+ \hyphenation{Maia-kóvski}
+ \hyphenation{Turgue-nievskaya}
+ \hyphenation{dosto-ievskiana}
+ \hyphenation{Smier-diakov}
+ \hyphenation{Staats-polizei}
+ \hyphenation{estudio-sa}
+ \hyphenation{Nie-tzsche}
 
 %\renewcommand{\foottextfont}{\small}
 %\footmarkstyle{\normalfont{\raisebox{3pt}{\tiny#1}}}
