@@ -1,8 +1,13 @@
-\documentclass[semcabeco,showtrims,10pt,conselho,spreadimages]{memoir}
+\documentclass[trimframe,semcabeco,showtrims,10pt,conselho,spreadimages]{memoir}
 
 \usepackage[post]{hedraoptions} 
 \usepackage[baruch]{hedrastyles}
+<<<<<<< HEAD
 \usepackage[xetex,chicagofootnotes,swiftneue]{tipografia}
+=======
+\usepackage[xetex,chicagofootnotes,libertine]{tipografia} 
+
+>>>>>>> 5c11efd5e089864fa3ad69a7c98ec0279070000d
 \usepackage[standart]{toc}
 
 \usepackage{hedraextra}
@@ -26,7 +31,10 @@
 \usepackage{paracol}
 \setlength{\columnsep}{0.8cm}
 
-\newcommand{\forceindent}{\leavevmode{\parindent=1,6em\indent}}
+\newcommand{\forceindent}{\leavevmode{\parindent=1,5em\indent}}
+
+%---------------------------------------------------------JUSTIFICAR LEGENDA NA IMAGEM
+ \usepackage[justification=centering]{caption}
 
 \newfontfamily\MinionPro[Ligatures=TeX]{MinionPro-Regular}
 
@@ -44,7 +52,7 @@
   \@footnotemark\@footnotetext}
 %\def\footnoterule{\kern-8\p@
    %\hrule \@width 2in \kern 7.6\p@} % the \hrule is .4pt high
-\skip\footins=10mm\@plus3mm\@minus2mm
+\skip\footins=10mm\@plus3mm\@minus5mm
 \makeatother
 
 \newenvironment{absolutelynopagebreak}
@@ -54,7 +62,17 @@
    \prevdepth=\tpd}
 
 
- 
+ \hyphenation{radio-fônico}
+ \hyphenation{Khru-schov}
+ \hyphenation{Vassílie-vitch}
+ \hyphenation{Frie-drich}
+ \hyphenation{Maia-kóvski}
+ \hyphenation{Turgue-nievskaya}
+ \hyphenation{dosto-ievskiana}
+ \hyphenation{Smier-diakov}
+ \hyphenation{Staats-polizei}
+ \hyphenation{estudio-sa}
+ \hyphenation{Nie-tzsche}
 
 %\renewcommand{\foottextfont}{\small}
 %\footmarkstyle{\normalfont{\raisebox{3pt}{\tiny#1}}}
